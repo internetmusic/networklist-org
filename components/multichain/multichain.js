@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
-import { Typography, Paper, Grid, Button, FormControlLabel, Checkbox } from '@material-ui/core'
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import Skeleton from '@material-ui/lab/Skeleton';
-import Web3 from 'web3';
+import React, {useState} from 'react';
+import {Button, Checkbox, FormControlLabel, Paper, Typography} from '@material-ui/core'
+import {createMuiTheme, ThemeProvider} from '@material-ui/core/styles';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import CloseIcon from '@material-ui/icons/Close';
 
 import classes from './multichain.module.css'
-
-import stores from '../../stores/index.js'
-import { getProvider } from '../../utils'
 
 export default function Multichain({ closeMultichain }) {
 
@@ -17,6 +12,7 @@ export default function Multichain({ closeMultichain }) {
 
   const navigateToMultichain = () => {
     window.open("https://multichain.xyz", "_blank")
+   /* window.open("https://multichain.xyz", "_blank")*/
   }
 
   const handleChange = () => {

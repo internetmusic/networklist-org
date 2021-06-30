@@ -38,33 +38,7 @@
     "explorers": [],
     "infoURL": "https://github.com/ethereum/ropsten"
   },
-    {
-    "name": "KuCoin Community Chain Mainnet",
-    "chainId": 321,
-    "shortName": "kcs",
-    "chain": "KCC",
-    "network": "mainnet",
-    "networkId": 321,
-    "nativeCurrency": {"name":"KuCoin Token","symbol":"KCS","decimals":18},
-    "rpc": ["https://rpc-mainnet.kcc.network","wss://rpc-ws-mainnet.kcc.network"],
-    "faucets": [],
-    "explorers": [{"name":"KCC Explorer","url":"https://explorer.kcc.io/en","standard":"EIP3091"}],
-    "infoURL": "https://kcc.io"
-  },
-  {
-    "name": "KuCoin Community Chain Testnet",
-    "chainId": 322,
-    "shortName": "kcst",
-    "chain": "KCC",
-    "network": "testnet",
-    "networkId": 322,
-    "nativeCurrency": {"name":"KuCoin Testnet Token","symbol":"tKCS","decimals":18},
-    "rpc": ["https://rpc-testnet.kcc.network"],
-    "faucets": ["https://faucet-testnet.kcc.network"],
-    "explorers": [{"name":"kcc-scan","url":"https://scan-testnet.kcc.network","standard":"EIP3091"}],
-    "infoURL": "https://scan-testnet.kcc.network"
-  },
-    {
+        {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
     "shortName": "rin",
@@ -90,20 +64,7 @@
     "explorers": [],
     "infoURL": "https://kovan-testnet.github.io/website"
   },
-  {
-    "name": "Optimistic Ethereum Testnet Goerli",
-    "chainId": 420,
-    "shortName": "ogor",
-    "chain": "ETH",
-    "network": "goerli",
-    "networkId": 420,
-    "nativeCurrency": {"name":"Görli Ether","symbol":"GOR","decimals":18},
-    "rpc": ["https://goerli.optimism.io/"],
-    "faucets": [],
-    "explorers": [],
-    "infoURL": "https://optimism.io"
-  },
-    {
+      {
     "name": "Athereum",
     "chainId": 43110,
     "shortName": "avaeth",
@@ -167,57 +128,5 @@
     "faucets": [],
     "explorers": [{"name":"bscscan","url":"https://bscscan.com","standard":"EIP3091"}],
     "infoURL": "https://www.binance.org"
-  },
-  {
-    "name": "Ethereum Classic Mainnet",
-    "chainId": 61,
-    "shortName": "etc",
-    "chain": "ETC",
-    "network": "mainnet",
-    "networkId": 1,
-    "nativeCurrency": {"name":"Ethereum Classic Ether","symbol":"ETC","decimals":18},
-    "rpc": ["https://ethereumclassic.network"],
-    "faucets": [],
-    "explorers": [],
-    "infoURL": "https://ethereumclassic.org"
-  },
-    {
-    "name": "Ethereum Classic Testnet Morden",
-    "chainId": 62,
-    "shortName": "tetc",
-    "chain": "ETC",
-    "network": "testnet",
-    "networkId": 2,
-    "nativeCurrency": {"name":"Ethereum Classic Testnet Ether","symbol":"TETC","decimals":18},
-    "rpc": [],
-    "faucets": [],
-    "explorers": [],
-    "infoURL": "https://ethereumclassic.org"
-  },
-   {
-    "name": "Ethereum Classic Testnet Mordor",
-    "chainId": 63,
-    "shortName": "metc",
-    "chain": "ETC",
-    "network": "testnet",
-    "networkId": 7,
-    "nativeCurrency": {"name":"Mordor Classic Testnet Ether","symbol":"METC","decimals":18},
-    "rpc": [],
-    "faucets": [],
-    "explorers": [],
-    "infoURL": "https://github.com/eth-classic/mordor/"
-  },
-  {
-    "name": "POA Network Core",
-    "chainId": 99,
-    "shortName": "skl",
-    "chain": "POA",
-    "network": "core",
-    "networkId": 99,
-    "nativeCurrency": {"name":"POA Network Core Ether","symbol":"SKL","decimals":18},
-    "rpc": ["https://core.poanetwork.dev","http://core.poanetwork.dev:8545","https://core.poa.network","ws://core.poanetwork.dev:8546"],
-    "faucets": [],
-    "explorers": [],
-    "infoURL": "https://poa.network"
   }
 ]
